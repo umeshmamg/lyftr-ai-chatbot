@@ -1,0 +1,26 @@
+# Environment & secrets (never commit real keys)
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node / Vite frontend
+frontend/node_modules/
+frontend/dist/
+
+# Local SQLite database files
+data/
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# OS / Editor
+.DS_Store
+Thumbs.db
